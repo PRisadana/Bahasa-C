@@ -1,1 +1,21 @@
-ashiap
+#include <stdio.h>
+int main () {
+    // latihan menggunakan fungsi printf() 
+    printf ("Hello World\n");
+    printf ("Nama saya %s\n" , "Resandy Prisadana");
+    printf ("Usia saya %d\n" , 18);
+    // latihan menggunakan fungsi puts()
+    puts ("Halo teman teman");
+    puts ("Nama saya Sandy");
+    /* Latihan menggunakan fungsi putchar() yang khusus
+       menampilkan satu huruf
+    */
+    putchar ('S');
+    /* Fungsi manakah yang harus saya pakai?
+       Tergantung...
+       Tergantung dari teks apa yang akan ditampilkan
+       Apabila disana kita menampilkan teks dan nilai variabel,
+       sebaiknya menggunakan printf() karena bisa membuat format
+    */
+    return 0;
+}
